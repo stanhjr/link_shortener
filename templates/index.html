@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+
+</head>
+
+<body>
+<div class="loading"></div>
+<div class="page-container">
+    <div class="refresh-wrapper">
+        <div id="refresh">Refresh</div>
+        <select id="selector-filter" name="select">
+            <option value="up">price up</option>
+            <option value="down">price down</option>
+        </select>
+    </div>
+    <div class="content"></div>
+</div>
+<script src="{% static 'js/main.js' %}"></script>
+</body>
+</html>
