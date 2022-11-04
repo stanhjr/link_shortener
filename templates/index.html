@@ -32,10 +32,10 @@
   <div class="mx-auto text-center mt-5">
     <h2 class="text-danger">Your shortened Url</h2>
     <p>You can copy the Link below and share it with your friends</p>
-    <p class="">{{new_url}}</p>
-    <p><span class="text-danger">Previous URL:</span> {{long_url}}</p>
+    <p class="">{{ new_url }}</p>
+    <p><span class="text-danger">Previous URL:</span> {{ long_url }}</p>
       {% if  click_counter %}
-      <p><span class="text-danger">Click Number for you:</span> {{click_counter}}</p>
+      <p><span class="text-danger">Click Number for you:</span> {{ click_counter }}</p>
           {% endif %}
   </div>
   {% endif %}
