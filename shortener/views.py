@@ -32,5 +32,3 @@ def redirect_url_view(request, shortened_part):
         request.session[shortened_part] = 1
 
     return HttpResponseRedirect(links_obj.long_url)
-
-
